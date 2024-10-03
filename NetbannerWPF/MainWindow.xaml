@@ -1,0 +1,14 @@
+﻿<Window x:Class="NetbannerWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NetbannerWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="20" Width="800" WindowStyle="None" Background="#fce83a" BorderThickness="0" Loaded="FormLoaded">
+    <Grid Height="22.7">
+        <Label x:Name="Label" Content="TOP SECRET//SCI" HorizontalAlignment="Center" VerticalAlignment="Top" Width="138" Height="20" VerticalContentAlignment="Center" FontFamily="Arial" FontSize="11" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <Label x:Name="RightLabel" Content="NOFORN&#xD;&#xA;NOFORN" HorizontalAlignment="Right" VerticalAlignment="Top" Width="326" Height="20" VerticalContentAlignment="Center" FontFamily="Arial" FontSize="11" FontWeight="Bold" HorizontalContentAlignment="Right"/>
+        <Label x:Name="LeftLabel" Content="TLA | 192.168.0.1 | username" HorizontalAlignment="Left" VerticalAlignment="Top" Width="326" Height="20" VerticalContentAlignment="Center" FontFamily="Arial" FontSize="11" FontWeight="Bold"/>
+    </Grid>
+</Window>

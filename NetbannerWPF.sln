@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetbannerWPF", "NetbannerWPF\NetbannerWPF.csproj", "{80CB59D1-CDDB-45E5-A6FF-64B9A6B78375}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80CB59D1-CDDB-45E5-A6FF-64B9A6B78375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CB59D1-CDDB-45E5-A6FF-64B9A6B78375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CB59D1-CDDB-45E5-A6FF-64B9A6B78375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CB59D1-CDDB-45E5-A6FF-64B9A6B78375}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED91342B-1A39-4BB4-948A-FE5E579DD05B}
+	EndGlobalSection
+EndGlobal
