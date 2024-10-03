@@ -50,6 +50,7 @@ namespace NetbannerWPF
             AppBarFunctions.SetAppBar(this, ABEdge.Top);
             LeftLabel.Content = "NSA | " + Dns.GetHostEntry(Dns.GetHostName().ToString()).AddressList[0].ToString() + " | " + Environment.UserName.ToString().ToUpper();
             RightLabel.Content = "NOFORN";
+            Banner.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#fce83a"));
         }
 
         void FormLoaded(object sender, RoutedEventArgs args)
