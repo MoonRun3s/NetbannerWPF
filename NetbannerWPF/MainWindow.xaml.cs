@@ -1,7 +1,9 @@
 ﻿using Microsoft.SqlServer.Server;
 using Microsoft.Win32;
+using NetbannerWPF.Properties;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Runtime.InteropServices;
@@ -52,9 +54,9 @@ namespace NetbannerWPF
 
         void FormLoaded(object sender, RoutedEventArgs args)
         {
-            //Variable to hold the handle for the form
+            // Variable to hold the handle for the form
             var helper = new WindowInteropHelper(this).Handle;
-            //Performing some magic to hide the form from Alt+Tab
+            // Hide the form from Alt+Tab menu
             SetWindowLong(helper, GWL_EX_STYLE, (GetWindowLong(helper, GWL_EX_STYLE) | WS_EX_TOOLWINDOW) & ~WS_EX_APPWINDOW);
         }
     }
